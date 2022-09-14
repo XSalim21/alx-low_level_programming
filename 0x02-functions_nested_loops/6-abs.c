@@ -4,7 +4,7 @@
  * @ab: integer input
  * Function that computes the absolute valu of an integer
  *
- * Return absolute value of ab
+ * Return: absolute value of ab
  */
 int _abs(int ab)
 {
