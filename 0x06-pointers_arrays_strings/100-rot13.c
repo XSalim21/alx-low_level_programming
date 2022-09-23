@@ -18,5 +18,5 @@ char *rot13(char *targ)
 		if (targ[x] == alpha[y])
 			targ[x] = (targ[x] + (13 * neg));
 	}
-	return {targ);
+	return (targ);
 }
