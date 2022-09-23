@@ -12,7 +12,8 @@ char *leet(char *targ)
 
 	for (; targ[x]; x++)
 	{
-		for (y = 0; (targ[x] != alpha[y] && y < 10); y++);
+		for (y = 0; (targ[x] != alpha[y] && y < 10); y++)
+			;
 		if (targ[x] == alpha[y])
 		{
 			y /= 2;
